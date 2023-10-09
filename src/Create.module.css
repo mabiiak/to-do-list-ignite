@@ -1,0 +1,90 @@
+.createForm {
+    display: flex;
+    width: 46rem;
+    position: relative;
+    top: -5vh;
+    gap: 0.5rem;
+}
+
+.createForm input {
+    height: 3.5rem;
+    width: 39.8rem;
+    border-radius: 0.5rem;
+    border: solid 1px var(--gray-700);
+    background-color: var(--gray-500);
+    color: var(--gray-100);
+    font-size: 1rem;
+}
+
+.createForm input:valid {
+    padding-left: 1rem;
+}
+
+.createForm input::placeholder {
+    color: var(--purple);
+}
+
+.createForm button {
+    height: 3.5rem;
+    width: 5.6rem;
+    background-color: var(--blue-dark);
+    border: none;
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    color: var(--gray-100);
+}
+
+.createForm button:hover {
+    cursor: pointer;
+    background-color: var(--blue);
+    transition: 1s;
+}
+
+.createForm svg {
+    padding-left: 0.3rem;
+}
+
+.subTitle {
+    width: 46rem;
+    font-size: 0.875rem;
+    color: var(--purple);
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    border-bottom: solid var(--gray-400) 0.1px;
+}
+
+.subTitle p:first-child {
+    color: var(--blue);
+}
+
+.subTitle span {
+    padding: 0.1rem 0.5rem;
+    border-radius: 25px;
+    background-color: var(--gray-400);
+    font-size: 12px;
+    color: var(--gray-100)
+}
+
+.noList {
+    display: flex;
+    flex-direction: column;
+    color: var(--purple);
+    align-items: center;
+}
+
+.noList svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    color: var(--gray-400);
+    padding: 4rem 0 1rem 0;
+}
+
+.noList span {
+    font-weight: bold;
+}
