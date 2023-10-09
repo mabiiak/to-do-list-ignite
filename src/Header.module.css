@@ -1,0 +1,21 @@
+.headerTodo {
+    display: flex;
+    width: 100vw;
+    height: 12rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerTodo img {
+    margin-right: 0.5rem;
+}
+
+.headerTodo h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--purple-dark);
+}
+
+.headerTodo h1>span {
+    color: var(--blue);
+}
